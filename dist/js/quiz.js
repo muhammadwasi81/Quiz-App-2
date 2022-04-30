@@ -64,8 +64,6 @@ const handleNext = () => {
   if (userAnswer === totalQuestions[questionCount].answer) {
     points += 10
     localStorage.setItem('points', points)
-    alert('correct')
-    return true
     // } else if (userAnswer !== totalQuestions[questionCount].answer) {
     //   points -= 10
     //   localStorage.setItem('points', points)
